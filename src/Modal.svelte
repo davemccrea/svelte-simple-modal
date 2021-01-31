@@ -86,7 +86,7 @@
     };
     onClosed = () => {
       callback.onClosed || toVoid;
-      dispatch('close')
+      dispatch('close');
     };
   };
 
